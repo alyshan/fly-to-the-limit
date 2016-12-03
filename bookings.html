@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Fly To The Limit | Bookings</title>
+	<meta name="description" content="Online form to book a tour with Fly To The Limit">
+	<link rel="stylesheet" href="css/stylesheet.css"> <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+
+</head>
+
+	
+<body>
+
+<nav> <!-- Logo -->
+		<img src="img/Logo.jpg" alt="Fly To The Limit logo blue plane outline with orange text">
+		<!-- Top Menu -->
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="bookings.html"><u>Booking a Tour Now </u></a></li>
+			<li><a href="tours.html">What We Do</a></li>
+			<li><a href="staff.html">Who We Are</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</nav>
+
+<!-- Main Image -->
+	<img class="hero" src="img/BookATour.jpg" alt="Lake Wanaka with hills">
+	<div>
+		<h1>Booking a Tour</h1>
+	</div>
+
+		<!-- form fields  -->
+		<form action="booking-form.php" method="post" id="booking-form">
+			<div>
+				<label for="name">Your Name*</label>
+				<input type="text" id="name" required="required">
+				<span id="name-message"></span>
+			</div>
+			<div>
+				<label for="email">Your Email*</label>
+				<input type="text" id="email" required="required">
+				<span id="email-message"></span>
+			</div>
+			<div>
+				<label for="phone">Phone Number</label>
+				<input type="text" id="phone">
+				<span id="phone-message"></span>
+			</div>
+			<div>
+				<label for="tour" id="tour2">Tour*</label>
+				<select name="tour" id="tour" required="required">
+					<option value="">-select one-</option>
+					<option value="fixed-wing">Fixed Wing</option>
+					<option value="helicopter">Helicopter</option>
+					<option value="glider">Glider Flight</option>
+				</select>
+			</div>
+			<div>
+				<label for="tour-types" id="tour-type2">Type of Tour*</label>
+				<select name="tour-type" id="tour-types" required="required">
+					<option value="">-select one-</option>
+					<option value="standard">Standard Flight</option>
+					<option value="1hr">1 Hour Scenic</option>
+					<option value="2hr">2 Hour Scenic</option>
+					<option value="mountain">Mountain Viewing</option>
+					<option value="lake">Lake Trip</option>
+					<option value="photo-flight">Photographic Flight</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="people">People*</label>
+				<input type="number" id="people" required="required">
+			</div>
+			<div>
+				<label for="comments">Comments</label>
+				<textarea id="comments"> </textarea>
+			</div>
+
+			<input type="submit" value="Book" id="book-button">
+		</form>
+<!-- Buttons -->
+		<div>
+			<anchor id="booknow"><a href="bookings.html">Book Now</a></anchor>
+			<anchor id="subscribe">Subscribe</anchor>
+			<anchor id="youtube"><i class="fa fa-youtube"></i></anchor>
+			<anchor id="facebook"><i class="fa fa-facebook-official"></i></anchor>
+		</div>
+
+<!-- Bottom menu -->
+<footer>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="bookings.html"><u>Booking a Tour Now </u></a></li>
+		<li><a href="tours.html">What We Do</a></li>
+		<li><a href="staff.html">Who We Are</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li>Subscribe</li>
+		<li><a href="https://www.youtube.com/watch?v=BVqyc4iDQVU">YouTube</a></li>
+		<li><a href="https://www.facebook.com/">Facebook</a></li>
+	</ul>
+</footer>
+
+<script src="javascript/form.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,468 @@
+/*All pages menu and images*/
+nav {
+	width: 1280px;
+	height: 30px;
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+16,e3f1f7+49,bfe8f9+75,9fd8ef+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left, #ffffff 16%, #e3f1f7 49%, #bfe8f9 75%, #9fd8ef 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #ffffff 16%,#e3f1f7 49%,#bfe8f9 75%,#9fd8ef 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #ffffff 16%,#e3f1f7 49%,#bfe8f9 75%,#9fd8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',endColorstr='#9fd8ef',GradientType=1 ); /* IE6-9 */
+	margin-top:20px;
+	color: black;
+	padding-bottom: 10px;
+
+	}
+
+nav ul {
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+
+}
+nav li {
+	float:right;
+	display: block;
+	padding:8px;	
+	padding-right: 100px;
+}
+nav img {
+	height:100px;
+	margin-top: -10px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover{
+	text-decoration: underline;
+}
+
+.hero{
+	float: left;
+	margin-top: 60px;
+	margin-left: 160px;
+	display: inline-block;
+	position: relative;
+}
+
+#home {
+	float: left;
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 200px;
+	margin-top: 80px;
+	background-color: #4157cc;
+	width: 820px;
+	margin-bottom: 20px;
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+footer {
+	float: left;
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 200px;
+	margin-top: 80px;
+	background-color: #4157cc;
+	width: 900px;
+	margin-bottom: 20px;
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+footer ul li {
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20px;
+}
+
+footer ul li:hover{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+footer a {
+	text-decoration: none;
+	color:black;
+}
+
+footer a:hover {
+	color:#FFFFFF;
+}
+
+/*Buttons*/
+div anchor {
+	float: right;
+	margin-bottom: 10px;
+	font-family: 'Arvo', serif;
+	margin-right: 10px;
+	/*display: block;*/
+	text-decoration: none;
+	content:'';
+	display: inline;
+	clear: both;
+	position: relative;
+}
+
+div a {
+	text-decoration: none;
+	color: #FFFFFF
+}
+
+div a:hover {
+	text-decoration: underline;
+}
+
+#booknow {
+	background-color: #4157cc;
+	color: #FFFFFF;
+	border:none;
+	padding:5px 15px;
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 10px;
+	margin-right: 230px;
+	margin-top: -228px;
+	text-decoration: none;
+}
+
+#subscribe {
+	background-color: #FF680A;
+	color: #000000;
+	border:none;
+	padding:5px 15px;
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 10px;
+	margin-right: 230px;
+	margin-top: -190px;
+}
+
+#subscribe:hover {
+	text-decoration: underline;
+}
+
+#youtube {
+	background-color: red;
+	color: white;
+	font-size:20px;
+	padding:5px 12px;
+	border-radius: 10px;
+	border:none;
+	display: inline;
+	margin-right: 10px;
+	cursor: pointer;
+	margin-right: 238px;
+	margin-top: -155px;
+}
+
+#facebook {
+	background-color: #3b5998;
+	color: white;
+	font-size:20px;
+	padding:5px 12px;
+	border-radius: 10px;
+	border:none;
+	display: inline;
+	cursor: pointer;
+	margin-right: 285px;
+	margin-top: -155px;
+}
+/*Home Page	*/
+div p {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width:550px;
+	margin-left: 160px;
+}
+div img{
+	position: absolute;
+	content: '';
+	display: inline;
+	clear: both;
+	margin-top: 500px;
+	margin-left: -444px;
+}
+/*All pages*/
+div h1 {
+	font-family: 'Arvo', serif;
+	color: #FF680A;
+	float:left;
+	margin-left: 160px;
+}
+
+/*Gallery*/
+main {
+	width: 450px;
+	margin: 0 auto;
+}
+
+main h1 {
+	font-family: 'Arvo', serif;
+	color: #FF680A;
+	float:left;
+	margin-left: -280px;
+	margin-top: -60px;
+}
+
+#gallery {
+	background-color: orange;
+	position: relative;
+	margin-top: 550px;
+	margin-left: -100px;
+}
+
+#slider {
+	width: 600px;
+	height: 400px;
+	background-color: #333333;
+}
+
+/*Staff Page*/
+div h2 {
+	font-family: 'Arvo', serif;
+	color: #4157cc;
+	margin-left: 160px;
+}
+
+#olga-bruce-img{
+	float:left;
+	margin-left: 280px;
+	margin-top: -400px;
+}
+
+#owners {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width:500px;
+	margin-left:-60px;
+	margin-top: 60px;
+
+}
+
+#finn-mccool-img{
+	float:left;
+	margin-left: -340px;
+	margin-top: -460px;
+}
+
+#stunt-pilot {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width:500px;
+	margin-left: 280px;
+}
+#split1 {
+	color: #FF680A;
+	float: left;
+	width: 800px;
+	margin-left: 155px;
+}
+
+#split2 {
+	color: #FF680A;
+	float: left;
+	width: 800px;
+	margin-left: 155px;
+}
+#split3 {
+	color: #FF680A;
+	float: left;
+	width: 800px;
+	margin-left: 155px;
+}
+#split4 {
+	color: #FF680A;
+	float: left;
+	width: 800px;
+	margin-left: 155px;
+}
+
+#wendy-gilhallen-img{
+	float:left;
+	margin-left: -340px;
+	margin-top: -475px;
+}
+
+#pilot{
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width:500px;
+	margin-left: 280px;
+}
+
+#jon-holliday-img{
+	float:left;
+	margin-left: -340px;
+	margin-top: -460px;
+}
+
+#pilot2{
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width:500px;
+	margin-left: 280px;
+}
+
+#hans-gerhansen-img{
+	float:left;
+	margin-left: -340px;
+	margin-top: -440px;
+}
+
+#pilot3{
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width:500px;
+	margin-left: 280px;
+}
+
+/*Tours*/
+#w-w-d{
+	font-family: 'Arvo', serif;
+	color: #4157cc;
+	float:left;
+	margin-top: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.prices {
+	float: left;
+	width: 80%;
+	margin-left: 160px;
+	margin-top: -15px;
+}
+
+.flights {
+	float: left;
+	width: 82%;
+	margin-left: 0;
+	margin-top: 0px;
+}
+
+#flights {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	list-style: none;
+	float: left;
+	margin-top: 70px;
+	margin-left: -355px;
+}
+
+/*Form*/
+
+#booking-form {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 80px;
+	margin-left: -246px;
+	border: solid 1px;
+	width: 600px;
+	height: 400px;
+	padding: 10px 10px 0;
+}
+
+#name {
+	width: 300px;
+	height: 20px;
+	margin-left: 54px;
+	margin-bottom: 10px;
+}
+
+#email {
+	width: 300px;
+	height: 20px;
+	margin-left: 57px;
+	margin-bottom: 10px;
+}
+
+#phone {
+	width: 300px;
+	height: 20px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+#tour{
+	margin-right: 30px;
+}
+
+#tour option{
+	width: 266px;
+	height: 20px;
+	margin-left: 10px;
+}
+#tour2 {
+	margin-right: 100px;
+}
+
+#tour-types option{
+	width: 266px;
+	height: 20px;
+	margin-left: 10px;
+}
+
+#tour-type2 {
+	margin-right: 40px;
+}
+
+#people {
+	width: 40px;
+	height: 15px;
+	margin-left: 84px;
+	margin-bottom: 10px;
+}
+
+#comments {
+	width: 300px;
+	height: 150px;
+	margin-left: 58px;
+	vertical-align: text-top;
+	margin-bottom: 10px;
+}
+
+#book-button {
+	background-color: #4157cc;
+	color: #FFFFFF;
+	border:none;
+	padding:5px 15px;
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 10px;
+	float: right;
+}
+
+#book-button:hover{
+	text-decoration: underline;
+}
+
+span {
+	font-size: 12px;
+	color: #FF680A;
+}
+
+
+
+
+
+
